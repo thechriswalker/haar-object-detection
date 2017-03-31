@@ -1,0 +1,24 @@
+{
+  "name": "haar-detect",
+  "version": "1.0.0",
+  "description": "client side object detection in images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thechriswalker/haar-object-detection.git"
+  },
+  "keywords": [
+    "haar",
+    "detect",
+    "opencv"
+  ],
+  "author": "Chris Walker <chris@thechriswalker.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thechriswalker/haar-object-detection/issues"
+  },
+  "homepage": "https://github.com/thechriswalker/haar-object-detection#readme"
+}
