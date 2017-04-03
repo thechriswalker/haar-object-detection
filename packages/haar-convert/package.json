@@ -1,0 +1,17 @@
+{
+  "name": "haar-convert",
+  "version": "0.0.1",
+  "description": "convert OpenCV Haar Cascade XML created by `opencv_traincascade`/`opencv_haartraining` to the format required for `haar-detect`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords":[
+    "haar",
+    "detect",
+    "cascade",
+    "opencv"
+  ],
+  "author": "Chris Walker <chris@thechriswalker.net>",
+  "license": "ISC"
+}

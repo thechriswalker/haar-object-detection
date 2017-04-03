@@ -1,7 +1,7 @@
 {
   "name": "haar-loader",
-  "version": "1.0.0",
-  "description": "webpack2 loader to load haar cascade xml created by `opencv_traincascade` as JS modules for `haar-detect` to use",
+  "version": "0.0.1",
+  "description": "webpack2 loader to load haar cascade xml created by `opencv_traincascade`/`opencv_haartraining` as JS modules for `haar-detect` to use",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,11 +13,12 @@
   "keywords": [
     "webpack",
     "haar",
-    "cascade"
+    "cascade",
+    "opencv"
   ],
   "author": "Chris Walker <chris@thechriswalker.net>",
   "license": "ISC",
   "dependencies": {
-    "sax": "^1.2.2"
+    "haar-convert": "^0.0.1"
   }
 }
