@@ -1,6 +1,6 @@
 {
   "name": "haar-detect",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "client side object detection in images",
   "main": "index.js",
   "scripts": {
