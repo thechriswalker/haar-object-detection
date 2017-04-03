@@ -1,12 +1,12 @@
 {
   "name": "haar-convert",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "convert OpenCV Haar Cascade XML created by `opencv_traincascade`/`opencv_haartraining` to the format required for `haar-detect`",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords":[
+  "keywords": [
     "haar",
     "detect",
     "cascade",

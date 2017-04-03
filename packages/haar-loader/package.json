@@ -1,6 +1,6 @@
 {
   "name": "haar-loader",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "webpack2 loader to load haar cascade xml created by `opencv_traincascade`/`opencv_haartraining` as JS modules for `haar-detect` to use",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,6 @@
   "author": "Chris Walker <chris@thechriswalker.net>",
   "license": "ISC",
   "dependencies": {
-    "haar-convert": "^0.0.1"
+    "haar-convert": "^0.1.0"
   }
 }
