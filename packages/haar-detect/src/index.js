@@ -1140,3 +1140,15 @@ module.exports = (exports = function createDetector(classifier, options) {
     );
     return detector.detect.bind(detector);
 });
+
+// this loads the url into an image tag Promise based API
+module.exports.loadUrl = function(stringUrl) {
+    return new Promise(function(resolve, reject) {
+        var img = new Image();
+        img.onload = function() {
+            resolve(img);
+        };
+        img.onerror = reject;
+        img.src = stringUrl;
+    });
+};

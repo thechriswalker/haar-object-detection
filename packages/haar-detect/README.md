@@ -8,45 +8,10 @@ import classifier from "haar!./my-trained-cascade.xml";
 
 const detect = createDetector(classifier, { width: 640, height: 480, scale: 1.2 });
 
-const url = "http://some/image.png";
-
-detect(url).then(rectangles => {
-  // array of rectangles the classifier detected
-}, err => {
-  // failed to load image
-});
-
-
 const img = document.images[0];
 
-detect(img).then(rectangles => {
-  // array of rectangles the classifier detected
-}, err => {
-  // failed to load image
-});
+const rectangles = detect(img);
 
-const blob = aFileOrBlobHandle;
-
-
-detect(blob).then(rectangles => {
-  // array of rectangles the classifier detected
-}, err => {
-  // failed to load image
-});
-
-// or
-const objecturl = URL.createObjectURL(blob);
-
-
-detect(objecturl).then(rectangles => {
-  // array of rectangles the classifier detected
-}, err => {
-  // failed to load image
-})
-.then(() => {
-  //don't forget to free the object url if you don't need it.
-  URL.revokeObjectURL(objecturl);
-});
 ```
 
 ## classifiers
